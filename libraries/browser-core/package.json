@@ -13,7 +13,7 @@
   "scripts": {
     "build": "rollup -c --silent",
     "dev": "rollup -c -w",
-    "test": "jest"
+    "test": "jest --no-cache"
   },
   "dependencies": {
     "@snowplow/tracker-core": "workspace:*",
